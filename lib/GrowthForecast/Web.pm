@@ -525,6 +525,14 @@ my $GRAPH_VALIDATOR = [
             [['CHOICE',qw/0 1/],'invalid title flag'],
         ],        
     },
+    'step' => {
+        default => '',
+        rule => [],
+    },
+    'cf' => {
+        default => '',
+        rule => [],
+    },
     'xgrid' => {
         default => '',
         rule => [],
